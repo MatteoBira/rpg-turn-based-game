@@ -11,7 +11,7 @@ func main() {
   var p2fire int
   var p1plz int 
   var p2plz int
-	fmt.Println("What's your name: ")
+  fmt.Println("What's your name: ")
   _, err := fmt.Scanln(&player1name)
   if err != nil {
     fmt.Println("Error:", err)
